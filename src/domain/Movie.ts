@@ -11,7 +11,7 @@ export default class Movie implements Buyable {
         readonly time: number,
         readonly nameEng?: string,
         readonly slogan?: string,
-        //readonly countable: boolean = false,
+        readonly counted: boolean = false,
         readonly amount: number = 1,
     ) { }
 }
